@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 header {
     background-color: white;
     padding-left: 25px;
@@ -25,6 +29,48 @@ img {
     align-items: center;
 }
 
+h2 {
+    
+}
+
 .div-main {
-    background-color: grey;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+}
+
+.div-main-2 {
+    background-color: white;
+    margin-top: 3px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    padding: 50px;
+}
+
+.task-div-main,.section-div-main {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid 2px;
+}
+
+.task-div-main {
+    margin-left: 50px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.section-div-main {
+    margin-left: 5px;
+    color: grey;
 }
