@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -16,7 +17,6 @@ header {
 }
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
 }
 
@@ -24,13 +24,17 @@ img {
     width: 75px;
 }
 
+h2 {
+    padding-top: 50px;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
 .header-box {
     display: flex;
     align-items: center;
-}
-
-h2 {
-    
 }
 
 .div-main {
@@ -50,13 +54,13 @@ h2 {
     margin-right: 500px;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px;
-    padding: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .task-div-main,.section-div-main {
     margin-top: 15px;
     margin-bottom: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: 15px;
     padding: 7px;
@@ -73,4 +77,72 @@ h2 {
 .section-div-main {
     margin-left: 5px;
     color: grey;
+}
+
+.editorial-button {
+    padding: 5px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.goals-button {
+    padding: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.recruiting-button {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.mobile-button {
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.website-button {
+    padding: 5px;
+    background-color: violet;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.sales-button {
+    padding: 5px;
+    background-color: greenyellow;
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.green-tick {
+    color: green;
+    border: solid 1px;
+    border-radius: 50%;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px;
+}
+
+.red-tick {
+    color: red;
+    border: solid 1px;
+    border-radius: 50%;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10px;
 }
